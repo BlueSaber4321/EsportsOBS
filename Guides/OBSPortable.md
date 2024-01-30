@@ -1,3 +1,3 @@
 ![Esports Logo](/Assets/esports.png)
 # Using OBS Portable
-I will work on this later im in class
+This guide will go over how to use OBS Portable.
