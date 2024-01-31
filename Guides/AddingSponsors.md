@@ -13,6 +13,7 @@ This template defines the "Safe" region for the logo. OBS will auto scale the lo
 - Start up OBS and head to the `INPLAY` scroller.
 - Click the `Add Files` button and navigate to the sponsor logo.
 
-OBS should now start scrolling through logos.
+OBS should now start scrolling through logos. <!-- hopefully..... if not something borked during import, but lets not mention that. since you can see this, you may know a bit about OBS, so you should figure it out. i have hope in you <3 -->
 
-Sponsors added across all teams will have a logo modified and uploaded to this repo in the assets folder.
+> [!NOTE]
+> Sponsors added across all teams will have a logo modified and uploaded to this repo in the assets folder.
