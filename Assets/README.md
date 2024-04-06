@@ -10,7 +10,9 @@ During setup of OBS, you can direct the install to check this folder and it shou
 > 
 > The new Esports Logos have been announced and shown to the public on 4/6/24 through shirts ditributed at ConnCel Kickoff / Nutmeg State Games Championship promoting Esports. The logo has Kaiser with headphones on with two variations: Variation 1 has Kaiser with headphones on a shield with Central Esports below it. Variation 2 has the kaiser with headphones on the shield and Central Esports next to it on the right, with the Simple Vertical Central logo on the left. We currently do not have high quality versions of it, but we will push to this repository once we recieve them. Here is a photo of it on the shirt for now.
 
-![New leak](/Assets/Upcoming/PXL_20240406_153827869.png)
+![New leak Front](/Assets/Upcoming/Front.png)
+
+![New leak back](/Assets/Upcoming/Back.png)
 
 ## Credits
 - [All Central Logos](https://www.ccsu.edu/mc/brand-resources)
