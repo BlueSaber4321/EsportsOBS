@@ -1,12 +1,43 @@
 {
+    "DesktopAudioDevice1": {
+        "prev_ver": 503316482,
+        "name": "Desktop Audio",
+        "uuid": "1206ef57-ef77-4bd4-9bc5-022ebf2a2113",
+        "id": "wasapi_output_capture",
+        "versioned_id": "wasapi_output_capture",
+        "settings": {
+            "device_id": "default"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+    },
     "AuxAudioDevice1": {
         "prev_ver": 503316482,
         "name": "Mic/Aux",
-        "uuid": "75d6576c-7440-4631-94f1-2aa8524658a4",
+        "uuid": "0fae013b-e95b-41e4-b40e-72a28314a722",
         "id": "pulse_input_capture",
         "versioned_id": "pulse_input_capture",
         "settings": {
-            "device_id": "alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone_797_2018_10_27_57942-00.analog-stereo"
+            "device_id": "default"
         },
         "mixers": 255,
         "sync": 0,
@@ -21,48 +52,17 @@
         "push-to-talk-delay": 0,
         "hotkeys": {
             "libobs.mute": [],
-            "libobs.unmute": [],
             "libobs.push-to-mute": [],
-            "libobs.push-to-talk": []
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 2,
         "private_settings": {}
     },
-    "AuxAudioDevice2": {
-        "prev_ver": 503316482,
-        "name": "CapCard",
-        "uuid": "5b1df463-de92-4ad3-9f29-19adf1829613",
-        "id": "pulse_input_capture",
-        "versioned_id": "pulse_input_capture",
-        "settings": {
-            "device_id": "alsa_input.usb-Elgato_Game_Capture_HD60_S__0007D9CCE5000-03.analog-stereo"
-        },
-        "mixers": 255,
-        "sync": 0,
-        "flags": 0,
-        "volume": 0.45215457677841187,
-        "balance": 0.5,
-        "enabled": true,
-        "muted": false,
-        "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": false,
-        "push-to-talk-delay": 0,
-        "hotkeys": {
-            "libobs.mute": [],
-            "libobs.unmute": [],
-            "libobs.push-to-mute": [],
-            "libobs.push-to-talk": []
-        },
-        "deinterlace_mode": 0,
-        "deinterlace_field_order": 0,
-        "monitoring_type": 2,
-        "private_settings": {}
-    },
-    "current_scene": "Starting",
-    "current_program_scene": "Starting",
+    "current_scene": "OPS WIP | PlayerInfo",
+    "current_program_scene": "OPS WIP | PlayerInfo",
     "scene_order": [
         {
             "name": "Starting"
@@ -72,12 +72,6 @@
         },
         {
             "name": "Ending"
-        },
-        {
-            "name": "Outside"
-        },
-        {
-            "name": "Booth"
         },
         {
             "name": "In Play NoCam"
@@ -98,178 +92,26 @@
             "name": "OPS | GAME"
         },
         {
-            "name": "OPS | PlayerInfo"
+            "name": "OPS WIP | PlayerInfo"
         }
     ],
-    "name": "Varsity",
+    "name": "Rocket League Varsity",
     "groups": [
         {
             "prev_ver": 503316482,
-            "name": "StartingGroup",
-            "uuid": "97410596-9347-4a07-96e2-4bfd9f0819da",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 800,
-                "cy": 454,
-                "items": [
-                    {
-                        "name": "StartingText",
-                        "source_uuid": "e73ad040-4f42-49fa-9847-055d2c6899f7",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 116.5,
-                            "y": 381.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "OW2 Logo",
-                        "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 64.0,
-                            "y": 276.0
-                        },
-                        "scale": {
-                            "x": 0.24181360006332397,
-                            "y": 0.24161073565483093
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 8,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503316482,
             "name": "Score",
-            "uuid": "05f073b9-439e-4c5d-928f-9833856a572e",
+            "uuid": "70466fc4-a7fb-4dfe-8335-13d6ae308f36",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
-                "cx": 1309,
+                "cx": 1311,
                 "cy": 80,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "RTeam",
-                        "source_uuid": "04b5824b-9972-4b32-acef-08d54ceecb3e",
+                        "source_uuid": "fccda60e-c01f-4232-a654-4ecb626fac2d",
                         "visible": false,
                         "locked": true,
                         "rot": 0.0,
@@ -307,7 +149,7 @@
                     },
                     {
                         "name": "RScoreBlock",
-                        "source_uuid": "cb5121a0-bdac-45e3-a0c7-7da02a52a7c7",
+                        "source_uuid": "e152c429-6883-41d2-b2aa-e1f4fe5e35b8",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -345,7 +187,7 @@
                     },
                     {
                         "name": "RScore",
-                        "source_uuid": "ed925173-d702-4e6e-84de-f439f77b6bd8",
+                        "source_uuid": "f7d52d31-7e71-4dbc-800e-6a4709fa426d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -383,7 +225,7 @@
                     },
                     {
                         "name": "LTeam",
-                        "source_uuid": "977cb6e3-7995-4c87-8635-89fa84478ad3",
+                        "source_uuid": "73a9f707-a30f-40fc-b215-22993c83a824",
                         "visible": false,
                         "locked": true,
                         "rot": 0.0,
@@ -421,7 +263,7 @@
                     },
                     {
                         "name": "LScoreBlock",
-                        "source_uuid": "222cbe35-5ef6-40fd-9d4b-c38b6cd82794",
+                        "source_uuid": "385f48a1-c3c1-48b9-981c-9c38e0e05fa1",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -459,7 +301,7 @@
                     },
                     {
                         "name": "LScore",
-                        "source_uuid": "1229ecbc-e3e3-4d46-b145-7f107bf0dc5f",
+                        "source_uuid": "90fe7f32-88a8-42c5-99dd-9dc10bbea85d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -497,7 +339,7 @@
                     },
                     {
                         "name": "BestOf",
-                        "source_uuid": "51307777-4454-4e06-ad09-ccc6b8b84804",
+                        "source_uuid": "1ef75bf5-6742-44ee-9672-c4d1866512b3",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -570,18 +412,18 @@
         {
             "prev_ver": 503316482,
             "name": "BoothCam Group",
-            "uuid": "e0e26cff-c30f-421f-a622-58e5497987e5",
+            "uuid": "04796de5-e051-4110-a8c6-257e4be1f4a5",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 518,
                 "cy": 525,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "OPS | BOOTH",
-                        "source_uuid": "c034d26e-ba88-46b0-9dea-40f1194b9143",
+                        "source_uuid": "d0a88cbe-8306-4265-9cb7-6929d526246b",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -619,7 +461,7 @@
                     },
                     {
                         "name": "INPLAY",
-                        "source_uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
+                        "source_uuid": "a941cd7e-dd7c-4354-bd84-662c9e0600fd",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -682,18 +524,18 @@
         {
             "prev_ver": 503316482,
             "name": "CenterCam Group",
-            "uuid": "da7251df-eaff-4a45-96e7-45009e2a20ed",
+            "uuid": "697dddda-6552-4ee1-a9c9-e48fafb47570",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 2,
                 "custom_size": true,
                 "cx": 538,
                 "cy": 536,
+                "id_counter": 2,
                 "items": [
                     {
                         "name": "OPS | CENTER",
-                        "source_uuid": "1b9f0367-843e-44d6-8e59-4f3d59794184",
+                        "source_uuid": "73a17351-a47d-47b6-8431-bd4b1763656a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -731,7 +573,7 @@
                     },
                     {
                         "name": "INPLAY",
-                        "source_uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
+                        "source_uuid": "a941cd7e-dd7c-4354-bd84-662c9e0600fd",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -793,323 +635,19 @@
         },
         {
             "prev_ver": 503316482,
-            "name": "BRB Group",
-            "uuid": "e5eed967-1110-4c95-8609-2b02ba9e46f5",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 3,
-                "custom_size": true,
-                "cx": 800,
-                "cy": 454,
-                "items": [
-                    {
-                        "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "BRBText",
-                        "source_uuid": "89853c03-0b8a-44a7-b4b1-c4789fd03d94",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 137.5,
-                            "y": 381.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 6,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "OW2 Logo",
-                        "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 64.0,
-                            "y": 276.0
-                        },
-                        "scale": {
-                            "x": 0.24181360006332397,
-                            "y": 0.24161073565483093
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503316482,
-            "name": "EndGroup",
-            "uuid": "29cadb74-99f2-4105-b348-dae1d92ef312",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 3,
-                "custom_size": true,
-                "cx": 972,
-                "cy": 456,
-                "items": [
-                    {
-                        "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 85.5,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "EndText",
-                        "source_uuid": "e5406625-46b3-49c9-bc30-c4547f5efb28",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 383.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 6,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "OW2 Logo",
-                        "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 149.5,
-                            "y": 276.0
-                        },
-                        "scale": {
-                            "x": 0.24181360006332397,
-                            "y": 0.24161073565483093
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503316482,
             "name": "P1",
-            "uuid": "d5e068c5-4a81-4812-a263-d0bb591854dd",
+            "uuid": "8c4c6605-94f7-4122-9bf4-cb09f90b0283",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
-                "cx": 593,
+                "cx": 568,
                 "cy": 320,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "PlayerTag",
-                        "source_uuid": "f3f910a4-e3c5-4708-96f9-5ee9ad63b90a",
+                        "source_uuid": "b1985471-4329-4c2a-bd48-d9ed30e64906",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -1147,7 +685,7 @@
                     },
                     {
                         "name": "PlayerName",
-                        "source_uuid": "b44ef69c-fd2f-4590-b08d-423ff6832545",
+                        "source_uuid": "de4df3d4-26b3-4cb7-b49b-80571f799008",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -1185,7 +723,7 @@
                     },
                     {
                         "name": "fix",
-                        "source_uuid": "a42c1ef8-7662-458e-a3bc-76214787f4c5",
+                        "source_uuid": "8135a826-91a6-4b39-8af3-be88b2c32d11",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -1246,6 +784,118 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {}
+        },
+        {
+            "prev_ver": 503316482,
+            "name": "LogoGroup",
+            "uuid": "afa69f17-e8bd-46e7-ae7b-446b2efbbcce",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "custom_size": true,
+                "cx": 612,
+                "cy": 374,
+                "id_counter": 0,
+                "items": [
+                    {
+                        "name": "Esports",
+                        "source_uuid": "76795541-add3-4340-b446-43bcbd22b4fd",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.25174826383590698,
+                            "y": 0.25215518474578857
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Rocket League Logo",
+                        "source_uuid": "8c773403-b584-4d74-993f-23c4ef3775b9",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 129.5,
+                            "y": 250.5
+                        },
+                        "scale": {
+                            "x": 0.14124999940395355,
+                            "y": 0.14154200255870819
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.8": [],
+                "libobs.hide_scene_item.8": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
         }
     ],
     "quick_transitions": [
@@ -1280,7 +930,53 @@
     "scaling_level": 0,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
     "modules": {
+        "scripts-tool": [],
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": true
+        },
+        "auto-scene-switcher": {
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "active": false,
+            "switches": []
+        },
+        "captions": {
+            "source": "",
+            "enabled": false,
+            "lang_id": 1033,
+            "provider": "mssapi"
+        },
+        "downstream_keyers_channel": 7,
+        "downstream_keyers": [
+            {
+                "name": "DSK 1",
+                "transition": "",
+                "transition_duration": 300,
+                "show_transition": "",
+                "show_transition_duration": 300,
+                "hide_transition": "",
+                "hide_transition_duration": 300,
+                "scenes": [],
+                "scene": "",
+                "null_hotkey": [],
+                "enable_tie_hotkey": [],
+                "disable_tie_hotkey": [],
+                "exclude_scenes": []
+            }
+        ],
         "advanced-scene-switcher": {
             "sceneGroups": [],
             "macroProperties": {
@@ -1414,41 +1110,22 @@
             "version": "267855fded058e22e682bf2888c822fb419d8b55",
             "twitchConnections": [],
             "connections": []
-        },
-        "scripts-tool": [],
-        "output-timer": {
-            "streamTimerHours": 0,
-            "streamTimerMinutes": 0,
-            "streamTimerSeconds": 30,
-            "recordTimerHours": 0,
-            "recordTimerMinutes": 0,
-            "recordTimerSeconds": 30,
-            "autoStartStreamTimer": false,
-            "autoStartRecordTimer": false,
-            "pauseRecordTimer": true
-        },
-        "auto-scene-switcher": {
-            "interval": 300,
-            "non_matching_scene": "",
-            "switch_if_not_matching": false,
-            "active": false,
-            "switches": []
         }
     },
     "sources": [
         {
             "prev_ver": 503316482,
             "name": "Be Right Back",
-            "uuid": "008ef6ea-bcab-4aef-a022-88779b8c0bfe",
+            "uuid": "b549de9e-52e8-4a0d-ba96-b7b808bb5f95",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 6,
                 "custom_size": false,
+                "id_counter": 9,
                 "items": [
                     {
                         "name": "Waveform",
-                        "source_uuid": "487995d9-fea6-4e34-bbea-6786afd49705",
+                        "source_uuid": "8e483710-051a-401e-a46a-0d0f7bb718a6",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -1486,7 +1163,7 @@
                     },
                     {
                         "name": "OPS | CENTER",
-                        "source_uuid": "1b9f0367-843e-44d6-8e59-4f3d59794184",
+                        "source_uuid": "73a17351-a47d-47b6-8431-bd4b1763656a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -1524,7 +1201,7 @@
                     },
                     {
                         "name": "BlackOut",
-                        "source_uuid": "01cd210c-9f90-4660-8fe8-d30524d7a26c",
+                        "source_uuid": "b3f2edc7-52bf-4687-bc76-081c29c034b3",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -1561,18 +1238,56 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+                        "name": "BRBText",
+                        "source_uuid": "b8635473-e1d1-41a9-b88f-0655005c75ac",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 560.0,
-                            "y": 313.0
+                            "x": 742.0,
+                            "y": 694.0
                         },
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Esports",
+                        "source_uuid": "76795541-add3-4340-b446-43bcbd22b4fd",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 661.0,
+                            "y": 296.0
+                        },
+                        "scale": {
+                            "x": 0.25174826383590698,
+                            "y": 0.25215518474578857
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1599,14 +1314,52 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "BRBText",
-                        "source_uuid": "89853c03-0b8a-44a7-b4b1-c4789fd03d94",
+                        "name": "Rocket League Logo",
+                        "source_uuid": "8c773403-b584-4d74-993f-23c4ef3775b9",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 697.5,
-                            "y": 694.0
+                            "x": 790.5,
+                            "y": 546.5
+                        },
+                        "scale": {
+                            "x": 0.14124999940395355,
+                            "y": 0.14154200255870819
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "LogoGroup",
+                        "source_uuid": "afa69f17-e8bd-46e7-ae7b-446b2efbbcce",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 661.0,
+                            "y": 296.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1623,83 +1376,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 6,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "OW2 Logo",
-                        "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 624.0,
-                            "y": 589.0
-                        },
-                        "scale": {
-                            "x": 0.24181360006332397,
-                            "y": 0.24161073565483093
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "BRB Group",
-                        "source_uuid": "e5eed967-1110-4c95-8609-2b02ba9e46f5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 560.0,
-                            "y": 313.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 5,
+                        "id": 9,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -1710,9 +1387,7 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "private_settings": {
-                            "collapsed": true
-                        }
+                        "private_settings": {}
                     }
                 ]
             },
@@ -1735,8 +1410,10 @@
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": []
+                "libobs.show_scene_item.6": [],
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.9": [],
+                "libobs.hide_scene_item.9": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1746,16 +1423,16 @@
         {
             "prev_ver": 503316482,
             "name": "BestOf",
-            "uuid": "51307777-4454-4e06-ad09-ccc6b8b84804",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "1ef75bf5-6742-44ee-9672-c4d1866512b3",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "BEST OF 5 (FIRST TO 3)",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 20,
-                    "flags": 1
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -1778,7 +1455,7 @@
         {
             "prev_ver": 503316482,
             "name": "BlackOut",
-            "uuid": "01cd210c-9f90-4660-8fe8-d30524d7a26c",
+            "uuid": "b3f2edc7-52bf-4687-bc76-081c29c034b3",
             "id": "color_source",
             "versioned_id": "color_source_v3",
             "settings": {
@@ -1804,7 +1481,7 @@
                 {
                     "prev_ver": 503316482,
                     "name": "Color Key",
-                    "uuid": "e2877d5e-7217-4974-b711-a570af9023af",
+                    "uuid": "1a223bd6-20cc-4ded-9ac2-1bfe3dc536f9",
                     "id": "color_key_filter",
                     "versioned_id": "color_key_filter_v2",
                     "settings": {
@@ -1831,255 +1508,10 @@
         },
         {
             "prev_ver": 503316482,
-            "name": "Booth",
-            "uuid": "befcaf35-c492-4b03-8ce4-c964219ff90c",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 8,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "OPS | BOOTH",
-                        "source_uuid": "c034d26e-ba88-46b0-9dea-40f1194b9143",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": -76.0,
-                            "y": -43.0
-                        },
-                        "scale": {
-                            "x": 1.0796874761581421,
-                            "y": 1.07962965965271
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 6,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "OPS | CENTER",
-                        "source_uuid": "1b9f0367-843e-44d6-8e59-4f3d59794184",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 35.0,
-                            "y": 620.0
-                        },
-                        "scale": {
-                            "x": 0.22291663289070129,
-                            "y": 0.22314813733100891
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 17,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "INPLAY",
-                        "source_uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 42.390647888183594,
-                            "y": 847.578125
-                        },
-                        "scale": {
-                            "x": 0.79687362909317017,
-                            "y": 0.79768788814544678
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "CenterCam Group",
-                        "source_uuid": "da7251df-eaff-4a45-96e7-45009e2a20ed",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 35.0,
-                            "y": 620.0
-                        },
-                        "scale": {
-                            "x": 0.796875,
-                            "y": 0.79768788814544678
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 7,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "id": "fade_transition",
-                            "versioned_id": "fade_transition",
-                            "name": "CenterCam Group Show Transition",
-                            "transition": {},
-                            "duration": 3000
-                        },
-                        "hide_transition": {
-                            "id": "fade_transition",
-                            "versioned_id": "fade_transition",
-                            "name": "CenterCam Group Hide Transition",
-                            "transition": {},
-                            "duration": 3000
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        }
-                    },
-                    {
-                        "name": "INPLAY",
-                        "source_uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 42.0,
-                            "y": 848.0
-                        },
-                        "scale": {
-                            "x": 0.79600000381469727,
-                            "y": 0.79600000381469727
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 8,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "id": "fade_transition",
-                            "versioned_id": "fade_transition",
-                            "name": "INPLAY Show Transition",
-                            "transition": {},
-                            "duration": 3000
-                        },
-                        "hide_transition": {
-                            "id": "fade_transition",
-                            "versioned_id": "fade_transition",
-                            "name": "INPLAY Hide Transition",
-                            "transition": {},
-                            "duration": 3000
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": [],
-                "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503316482,
             "name": "BoothCam",
-            "uuid": "d6d04a34-2d15-4853-8b94-7a507a54818b",
-            "id": "v4l2_input",
-            "versioned_id": "v4l2_input",
+            "uuid": "2eec7028-7934-4e9c-a0d7-bf0eea1e825e",
+            "id": "dshow_input",
+            "versioned_id": "dshow_input",
             "settings": {
                 "device_id": "/dev/video1",
                 "input": 0,
@@ -2097,7 +1529,12 @@
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -2106,7 +1543,7 @@
                 {
                     "prev_ver": 503316482,
                     "name": "Scaling/Aspect Ratio",
-                    "uuid": "c89039be-d58e-42a2-b240-9ddfea2e3c6f",
+                    "uuid": "ab8450c9-58dc-4ddd-a5f7-344d8e7471c0",
                     "id": "scale_filter",
                     "versioned_id": "scale_filter",
                     "settings": {
@@ -2134,18 +1571,18 @@
         {
             "prev_ver": 503316482,
             "name": "BOOTHNS",
-            "uuid": "167dc5ef-375d-4729-901f-29b56b940977",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "dd66c097-9e23-4a84-aaf0-1c58365a2379",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "Can't connect to the webcam. Is it connected?",
+                "word_wrap": false,
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 48,
-                    "flags": 1
-                },
-                "word_wrap": false
+                    "style": "Regular"
+                }
             },
             "mixers": 0,
             "sync": 0,
@@ -2167,16 +1604,16 @@
         {
             "prev_ver": 503316482,
             "name": "BRBText",
-            "uuid": "89853c03-0b8a-44a7-b4b1-c4789fd03d94",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "b8635473-e1d1-41a9-b88f-0655005c75ac",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "BE RIGHT BACK",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -2199,18 +1636,18 @@
         {
             "prev_ver": 503316482,
             "name": "DroidCam OBS",
-            "uuid": "297f7a6f-7585-4c32-a06e-b574bbd0554d",
+            "uuid": "2c835639-fc5b-4a49-add5-8d6d0d115c2f",
             "id": "droidcam_obs",
             "versioned_id": "droidcam_obs",
             "settings": {
-                "device_list": "dev_id_wifi",
-                "resolution": 2,
-                "wifi_ip": "100.72.4.122",
                 "cur_dev_id": "dev_id_wifi",
                 "cur_dev_ip": "100.72.4.122",
                 "cur_dev_type": 1,
-                "video_format": 0,
+                "device_list": "dev_id_wifi",
                 "remote_url": "",
+                "resolution": 2,
+                "video_format": 0,
+                "wifi_ip": "100.72.4.122",
                 "activated": true,
                 "deactivate_wns": true
             },
@@ -2241,7 +1678,7 @@
                 {
                     "prev_ver": 503316482,
                     "name": "Scaling/Aspect Ratio",
-                    "uuid": "d894804f-d323-4445-b68e-dee444980790",
+                    "uuid": "0b354ac7-9be2-497f-9ab4-e5965f2da7b4",
                     "id": "scale_filter",
                     "versioned_id": "scale_filter",
                     "settings": {
@@ -2269,18 +1706,18 @@
         {
             "prev_ver": 503316482,
             "name": "Elgato",
-            "uuid": "24dc9276-230f-4fda-8556-4dbfb19341f7",
-            "id": "v4l2_input",
-            "versioned_id": "v4l2_input",
+            "uuid": "1eda2b7d-afae-4b25-8fee-c3967030ca4f",
+            "id": "dshow_input",
+            "versioned_id": "dshow_input",
             "settings": {
-                "device_id": "/dev/video0",
                 "Saturation": 132,
+                "auto_reset": true,
+                "color_range": 2,
+                "device_id": "/dev/video0",
+                "framerate": -1,
                 "input": 0,
                 "pixelformat": 1448695129,
-                "resolution": -1,
-                "framerate": -1,
-                "color_range": 2,
-                "auto_reset": true
+                "resolution": -1
             },
             "mixers": 0,
             "sync": 0,
@@ -2293,7 +1730,12 @@
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -2302,16 +1744,16 @@
         {
             "prev_ver": 503316482,
             "name": "Ending",
-            "uuid": "151dcb94-7331-4f34-8181-21a2b8961f66",
+            "uuid": "7b719f47-a16b-461f-b8f5-d20bb6d6eb56",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 6,
                 "custom_size": false,
+                "id_counter": 9,
                 "items": [
                     {
                         "name": "Waveform",
-                        "source_uuid": "487995d9-fea6-4e34-bbea-6786afd49705",
+                        "source_uuid": "8e483710-051a-401e-a46a-0d0f7bb718a6",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2349,7 +1791,7 @@
                     },
                     {
                         "name": "OPS | CENTER",
-                        "source_uuid": "1b9f0367-843e-44d6-8e59-4f3d59794184",
+                        "source_uuid": "73a17351-a47d-47b6-8431-bd4b1763656a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2387,7 +1829,7 @@
                     },
                     {
                         "name": "BlackOut",
-                        "source_uuid": "01cd210c-9f90-4660-8fe8-d30524d7a26c",
+                        "source_uuid": "b3f2edc7-52bf-4687-bc76-081c29c034b3",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2424,18 +1866,56 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+                        "name": "EndText",
+                        "source_uuid": "26bb2147-617f-404c-9110-ae917c6bde57",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 560.0,
-                            "y": 313.0
+                            "x": 558.0,
+                            "y": 696.0
                         },
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Esports",
+                        "source_uuid": "76795541-add3-4340-b446-43bcbd22b4fd",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 661.0,
+                            "y": 296.0
+                        },
+                        "scale": {
+                            "x": 0.25174826383590698,
+                            "y": 0.25215518474578857
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -2462,14 +1942,52 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "EndText",
-                        "source_uuid": "e5406625-46b3-49c9-bc30-c4547f5efb28",
+                        "name": "Rocket League Logo",
+                        "source_uuid": "8c773403-b584-4d74-993f-23c4ef3775b9",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 474.5,
-                            "y": 696.0
+                            "x": 790.5,
+                            "y": 546.5
+                        },
+                        "scale": {
+                            "x": 0.14124999940395355,
+                            "y": 0.14154200255870819
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "LogoGroup",
+                        "source_uuid": "afa69f17-e8bd-46e7-ae7b-446b2efbbcce",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 661.0,
+                            "y": 296.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -2486,83 +2004,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 6,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "OW2 Logo",
-                        "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 624.0,
-                            "y": 589.0
-                        },
-                        "scale": {
-                            "x": 0.24181360006332397,
-                            "y": 0.24161073565483093
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "EndGroup",
-                        "source_uuid": "29cadb74-99f2-4105-b348-dae1d92ef312",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 474.5,
-                            "y": 313.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 5,
+                        "id": 9,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2598,8 +2040,10 @@
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": []
+                "libobs.show_scene_item.6": [],
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.9": [],
+                "libobs.hide_scene_item.9": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2609,16 +2053,16 @@
         {
             "prev_ver": 503316482,
             "name": "EndText",
-            "uuid": "e5406625-46b3-49c9-bc30-c4547f5efb28",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "26bb2147-617f-404c-9110-ae917c6bde57",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "THANK YOU FOR WATCHING!",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -2641,11 +2085,11 @@
         {
             "prev_ver": 503316482,
             "name": "Esports",
-            "uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+            "uuid": "76795541-add3-4340-b446-43bcbd22b4fd",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "/home/deck/Documents/Varsity/Control/Images/InPlay/esports.png"
+                "file": "D:/Github/EsportsOBS/Assets/esports.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2667,7 +2111,7 @@
         {
             "prev_ver": 503316482,
             "name": "fix",
-            "uuid": "a42c1ef8-7662-458e-a3bc-76214787f4c5",
+            "uuid": "8135a826-91a6-4b39-8af3-be88b2c32d11",
             "id": "color_source",
             "versioned_id": "color_source_v3",
             "settings": {
@@ -2693,18 +2137,18 @@
         {
             "prev_ver": 503316482,
             "name": "GAMENS",
-            "uuid": "ef1f70a3-9557-4b8d-ad53-7a6ba26db4d1",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "974ce431-b758-4dfb-8df3-0f4ada0ddf98",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "Verify capture card is connected properly.",
+                "word_wrap": false,
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 48,
-                    "flags": 1
-                },
-                "word_wrap": false
+                    "style": "Regular"
+                }
             },
             "mixers": 0,
             "sync": 0,
@@ -2726,16 +2170,16 @@
         {
             "prev_ver": 503316482,
             "name": "In Play BoothCam",
-            "uuid": "0fa18470-d5af-4e7e-9b4a-0cbe9f35a1af",
+            "uuid": "b963c08a-83fe-42bb-bddc-8f1d81748ff0",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 4,
                 "custom_size": false,
+                "id_counter": 4,
                 "items": [
                     {
                         "name": "OPS | GAME",
-                        "source_uuid": "d1c0e8d9-400b-4e56-aca7-f091b49e6261",
+                        "source_uuid": "93a9d16f-3e8f-4b5d-b9c0-e758c0782d02",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2773,7 +2217,7 @@
                     },
                     {
                         "name": "OPS | BOOTH",
-                        "source_uuid": "c034d26e-ba88-46b0-9dea-40f1194b9143",
+                        "source_uuid": "d0a88cbe-8306-4265-9cb7-6929d526246b",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2811,7 +2255,7 @@
                     },
                     {
                         "name": "INPLAY",
-                        "source_uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
+                        "source_uuid": "a941cd7e-dd7c-4354-bd84-662c9e0600fd",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2849,7 +2293,7 @@
                     },
                     {
                         "name": "BoothCam Group",
-                        "source_uuid": "e0e26cff-c30f-421f-a622-58e5497987e5",
+                        "source_uuid": "04796de5-e051-4110-a8c6-257e4be1f4a5",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2889,7 +2333,7 @@
                     },
                     {
                         "name": "RTeam",
-                        "source_uuid": "04b5824b-9972-4b32-acef-08d54ceecb3e",
+                        "source_uuid": "fccda60e-c01f-4232-a654-4ecb626fac2d",
                         "visible": false,
                         "locked": true,
                         "rot": 0.0,
@@ -2927,7 +2371,7 @@
                     },
                     {
                         "name": "RScoreBlock",
-                        "source_uuid": "cb5121a0-bdac-45e3-a0c7-7da02a52a7c7",
+                        "source_uuid": "e152c429-6883-41d2-b2aa-e1f4fe5e35b8",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2965,7 +2409,7 @@
                     },
                     {
                         "name": "RScore",
-                        "source_uuid": "ed925173-d702-4e6e-84de-f439f77b6bd8",
+                        "source_uuid": "f7d52d31-7e71-4dbc-800e-6a4709fa426d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3003,7 +2447,7 @@
                     },
                     {
                         "name": "LTeam",
-                        "source_uuid": "977cb6e3-7995-4c87-8635-89fa84478ad3",
+                        "source_uuid": "73a9f707-a30f-40fc-b215-22993c83a824",
                         "visible": false,
                         "locked": true,
                         "rot": 0.0,
@@ -3041,7 +2485,7 @@
                     },
                     {
                         "name": "LScoreBlock",
-                        "source_uuid": "222cbe35-5ef6-40fd-9d4b-c38b6cd82794",
+                        "source_uuid": "385f48a1-c3c1-48b9-981c-9c38e0e05fa1",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3079,7 +2523,7 @@
                     },
                     {
                         "name": "LScore",
-                        "source_uuid": "1229ecbc-e3e3-4d46-b145-7f107bf0dc5f",
+                        "source_uuid": "90fe7f32-88a8-42c5-99dd-9dc10bbea85d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3117,7 +2561,7 @@
                     },
                     {
                         "name": "BestOf",
-                        "source_uuid": "51307777-4454-4e06-ad09-ccc6b8b84804",
+                        "source_uuid": "1ef75bf5-6742-44ee-9672-c4d1866512b3",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3155,7 +2599,7 @@
                     },
                     {
                         "name": "Score",
-                        "source_uuid": "05f073b9-439e-4c5d-928f-9833856a572e",
+                        "source_uuid": "70466fc4-a7fb-4dfe-8335-13d6ae308f36",
                         "visible": false,
                         "locked": true,
                         "rot": 0.0,
@@ -3235,16 +2679,16 @@
         {
             "prev_ver": 503316482,
             "name": "In Play CenterCam",
-            "uuid": "bdefe04e-ac31-4fca-84a0-92fccaf2f88b",
+            "uuid": "d37022f3-c2a7-46e0-a10f-07c086e647d4",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 17,
                 "custom_size": false,
+                "id_counter": 17,
                 "items": [
                     {
                         "name": "OPS | GAME",
-                        "source_uuid": "d1c0e8d9-400b-4e56-aca7-f091b49e6261",
+                        "source_uuid": "93a9d16f-3e8f-4b5d-b9c0-e758c0782d02",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3282,7 +2726,7 @@
                     },
                     {
                         "name": "OPS | CENTER",
-                        "source_uuid": "1b9f0367-843e-44d6-8e59-4f3d59794184",
+                        "source_uuid": "73a17351-a47d-47b6-8431-bd4b1763656a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3320,7 +2764,7 @@
                     },
                     {
                         "name": "INPLAY",
-                        "source_uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
+                        "source_uuid": "a941cd7e-dd7c-4354-bd84-662c9e0600fd",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3358,7 +2802,7 @@
                     },
                     {
                         "name": "CenterCam Group",
-                        "source_uuid": "da7251df-eaff-4a45-96e7-45009e2a20ed",
+                        "source_uuid": "697dddda-6552-4ee1-a9c9-e48fafb47570",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3398,7 +2842,7 @@
                     },
                     {
                         "name": "RTeam",
-                        "source_uuid": "04b5824b-9972-4b32-acef-08d54ceecb3e",
+                        "source_uuid": "fccda60e-c01f-4232-a654-4ecb626fac2d",
                         "visible": false,
                         "locked": true,
                         "rot": 0.0,
@@ -3436,7 +2880,7 @@
                     },
                     {
                         "name": "RScoreBlock",
-                        "source_uuid": "cb5121a0-bdac-45e3-a0c7-7da02a52a7c7",
+                        "source_uuid": "e152c429-6883-41d2-b2aa-e1f4fe5e35b8",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3474,7 +2918,7 @@
                     },
                     {
                         "name": "RScore",
-                        "source_uuid": "ed925173-d702-4e6e-84de-f439f77b6bd8",
+                        "source_uuid": "f7d52d31-7e71-4dbc-800e-6a4709fa426d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3512,7 +2956,7 @@
                     },
                     {
                         "name": "LTeam",
-                        "source_uuid": "977cb6e3-7995-4c87-8635-89fa84478ad3",
+                        "source_uuid": "73a9f707-a30f-40fc-b215-22993c83a824",
                         "visible": false,
                         "locked": true,
                         "rot": 0.0,
@@ -3550,7 +2994,7 @@
                     },
                     {
                         "name": "LScoreBlock",
-                        "source_uuid": "222cbe35-5ef6-40fd-9d4b-c38b6cd82794",
+                        "source_uuid": "385f48a1-c3c1-48b9-981c-9c38e0e05fa1",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3588,7 +3032,7 @@
                     },
                     {
                         "name": "LScore",
-                        "source_uuid": "1229ecbc-e3e3-4d46-b145-7f107bf0dc5f",
+                        "source_uuid": "90fe7f32-88a8-42c5-99dd-9dc10bbea85d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3626,7 +3070,7 @@
                     },
                     {
                         "name": "BestOf",
-                        "source_uuid": "51307777-4454-4e06-ad09-ccc6b8b84804",
+                        "source_uuid": "1ef75bf5-6742-44ee-9672-c4d1866512b3",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3664,7 +3108,7 @@
                     },
                     {
                         "name": "Score",
-                        "source_uuid": "05f073b9-439e-4c5d-928f-9833856a572e",
+                        "source_uuid": "70466fc4-a7fb-4dfe-8335-13d6ae308f36",
                         "visible": false,
                         "locked": true,
                         "rot": 0.0,
@@ -3744,16 +3188,16 @@
         {
             "prev_ver": 503316482,
             "name": "In Play NoCam",
-            "uuid": "7a2f2bd6-c112-49de-9017-059814125984",
+            "uuid": "8aadee81-e47d-421a-9714-8c0339db3885",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
                 "custom_size": false,
+                "id_counter": 2,
                 "items": [
                     {
                         "name": "OPS | GAME",
-                        "source_uuid": "d1c0e8d9-400b-4e56-aca7-f091b49e6261",
+                        "source_uuid": "93a9d16f-3e8f-4b5d-b9c0-e758c0782d02",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3791,17 +3235,17 @@
                     },
                     {
                         "name": "INPLAY",
-                        "source_uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
+                        "source_uuid": "a941cd7e-dd7c-4354-bd84-662c9e0600fd",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1381.0,
-                            "y": 415.0
+                            "x": 1531.0,
+                            "y": 452.5
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.69999998807907104,
+                            "y": 0.69999998807907104
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -3855,15 +3299,15 @@
         {
             "prev_ver": 503316482,
             "name": "INPLAY",
-            "uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
+            "uuid": "a941cd7e-dd7c-4354-bd84-662c9e0600fd",
             "id": "slideshow",
             "versioned_id": "slideshow",
             "settings": {
                 "files": [
                     {
-                        "value": "/home/deck/Documents/Varsity/Control/Images/InPlay",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "D:/Github/EsportsOBS/Assets/esports.png"
                     }
                 ],
                 "use_custom_size": "500x250"
@@ -3894,19 +3338,20 @@
         {
             "prev_ver": 503316482,
             "name": "LScore",
-            "uuid": "1229ecbc-e3e3-4d46-b145-7f107bf0dc5f",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "90fe7f32-88a8-42c5-99dd-9dc10bbea85d",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
+                "color1": 4288305693,
+                "color2": 4288305693,
                 "text": "0",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 36,
-                    "flags": 1
+                    "style": "Regular"
                 },
-                "color1": 4288305693,
-                "color2": 4288305693
+                "color": 4294944317
             },
             "mixers": 0,
             "sync": 0,
@@ -3928,7 +3373,7 @@
         {
             "prev_ver": 503316482,
             "name": "LScoreBlock",
-            "uuid": "222cbe35-5ef6-40fd-9d4b-c38b6cd82794",
+            "uuid": "385f48a1-c3c1-48b9-981c-9c38e0e05fa1",
             "id": "color_source",
             "versioned_id": "color_source_v3",
             "settings": {
@@ -3956,16 +3401,16 @@
         {
             "prev_ver": 503316482,
             "name": "LTeam",
-            "uuid": "977cb6e3-7995-4c87-8635-89fa84478ad3",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "73a9f707-a30f-40fc-b215-22993c83a824",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "Central Blue Devils",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 36,
-                    "flags": 1
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -3988,16 +3433,16 @@
         {
             "prev_ver": 503316482,
             "name": "NoSignal",
-            "uuid": "8103b464-f378-4a7e-8280-55609862b610",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "06322296-57d0-4cf4-87b3-29eb03dc3a69",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "No Signal",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -4019,22 +3464,222 @@
         },
         {
             "prev_ver": 503316482,
-            "name": "OPS | BOOTH",
-            "uuid": "c034d26e-ba88-46b0-9dea-40f1194b9143",
+            "name": "OPS WIP | PlayerInfo",
+            "uuid": "556a9ab1-5b32-4ff2-a719-35c927a2d885",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 5,
                 "custom_size": false,
+                "id_counter": 8,
                 "items": [
                     {
-                        "name": "BOOTHNS",
-                        "source_uuid": "167dc5ef-375d-4729-901f-29b56b940977",
+                        "name": "PlayerTag",
+                        "source_uuid": "b1985471-4329-4c2a-bd48-d9ed30e64906",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 466.0,
+                            "x": 261.0,
+                            "y": 870.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "PlayerName",
+                        "source_uuid": "de4df3d4-26b3-4cb7-b49b-80571f799008",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 261.0,
+                            "y": 949.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "fix",
+                        "source_uuid": "8135a826-91a6-4b39-8af3-be88b2c32d11",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 760.0
+                        },
+                        "scale": {
+                            "x": 0.29583331942558289,
+                            "y": 0.29629629850387573
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "P1",
+                        "source_uuid": "8c4c6605-94f7-4122-9bf4-cb09f90b0283",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 760.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "swipe_transition",
+                            "versioned_id": "swipe_transition",
+                            "name": "P1 Show Transition",
+                            "transition": {
+                                "direction": "right",
+                                "swipe_in": true
+                            },
+                            "duration": 1000
+                        },
+                        "hide_transition": {
+                            "id": "swipe_transition",
+                            "versioned_id": "swipe_transition",
+                            "name": "P1 Hide Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 1000
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503316482,
+            "name": "OPS | BOOTH",
+            "uuid": "d0a88cbe-8306-4265-9cb7-6929d526246b",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "custom_size": false,
+                "id_counter": 5,
+                "items": [
+                    {
+                        "name": "BOOTHNS",
+                        "source_uuid": "dd66c097-9e23-4a84-aaf0-1c58365a2379",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 547.0,
                             "y": 725.0
                         },
                         "scale": {
@@ -4067,12 +3712,12 @@
                     },
                     {
                         "name": "NoSignal",
-                        "source_uuid": "8103b464-f378-4a7e-8280-55609862b610",
+                        "source_uuid": "06322296-57d0-4cf4-87b3-29eb03dc3a69",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 803.0,
+                            "x": 829.0,
                             "y": 590.0
                         },
                         "scale": {
@@ -4105,17 +3750,17 @@
                     },
                     {
                         "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+                        "source_uuid": "76795541-add3-4340-b446-43bcbd22b4fd",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 661.0,
-                            "y": 351.0
+                            "x": 615.5,
+                            "y": 293.0
                         },
                         "scale": {
-                            "x": 0.74750000238418579,
-                            "y": 0.74800002574920654
+                            "x": 0.28342247009277344,
+                            "y": 0.28340518474578857
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -4143,7 +3788,7 @@
                     },
                     {
                         "name": "BoothCam",
-                        "source_uuid": "d6d04a34-2d15-4853-8b94-7a507a54818b",
+                        "source_uuid": "2eec7028-7934-4e9c-a0d7-bf0eea1e825e",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4211,11 +3856,11 @@
                 {
                     "prev_ver": 503316482,
                     "name": "Image Mask/Blend",
-                    "uuid": "38a0e398-97e4-4e11-990b-26259d4e67e9",
+                    "uuid": "50e14417-987f-4b82-9a78-5a9540c7f835",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "/home/deck/Documents/Varsity/Screenshot 2023-09-10 21-42-39.png"
+                        "image_path": "G:/Assets/Mask.png"
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -4239,16 +3884,16 @@
         {
             "prev_ver": 503316482,
             "name": "OPS | CENTER",
-            "uuid": "1b9f0367-843e-44d6-8e59-4f3d59794184",
+            "uuid": "73a17351-a47d-47b6-8431-bd4b1763656a",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 1,
                 "custom_size": false,
+                "id_counter": 3,
                 "items": [
                     {
                         "name": "DroidCam OBS",
-                        "source_uuid": "297f7a6f-7585-4c32-a06e-b574bbd0554d",
+                        "source_uuid": "2c835639-fc5b-4a49-add5-8d6d0d115c2f",
                         "visible": true,
                         "locked": true,
                         "rot": 180.0,
@@ -4310,7 +3955,7 @@
                 {
                     "prev_ver": 503316482,
                     "name": "Image Mask/Blend",
-                    "uuid": "d70c4acf-346e-4731-9c63-9160d99f6fc7",
+                    "uuid": "c3e96b74-dc6d-4c73-bff4-e494e84f262e",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
@@ -4338,26 +3983,26 @@
         {
             "prev_ver": 503316482,
             "name": "OPS | GAME",
-            "uuid": "d1c0e8d9-400b-4e56-aca7-f091b49e6261",
+            "uuid": "93a9d16f-3e8f-4b5d-b9c0-e758c0782d02",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 7,
                 "custom_size": false,
+                "id_counter": 8,
                 "items": [
                     {
                         "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+                        "source_uuid": "76795541-add3-4340-b446-43bcbd22b4fd",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 661.0,
-                            "y": 351.0
+                            "x": 615.5,
+                            "y": 293.0
                         },
                         "scale": {
-                            "x": 0.74750000238418579,
-                            "y": 0.74800002574920654
+                            "x": 0.28342247009277344,
+                            "y": 0.28340518474578857
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -4370,7 +4015,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 4,
+                        "id": 8,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -4385,12 +4030,12 @@
                     },
                     {
                         "name": "NoSignal",
-                        "source_uuid": "8103b464-f378-4a7e-8280-55609862b610",
+                        "source_uuid": "06322296-57d0-4cf4-87b3-29eb03dc3a69",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 803.0,
+                            "x": 829.0,
                             "y": 590.0
                         },
                         "scale": {
@@ -4423,12 +4068,12 @@
                     },
                     {
                         "name": "GAMENS",
-                        "source_uuid": "ef1f70a3-9557-4b8d-ad53-7a6ba26db4d1",
+                        "source_uuid": "974ce431-b758-4dfb-8df3-0f4ada0ddf98",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 505.0,
+                            "x": 582.0,
                             "y": 725.0
                         },
                         "scale": {
@@ -4461,7 +4106,7 @@
                     },
                     {
                         "name": "Elgato",
-                        "source_uuid": "24dc9276-230f-4fda-8556-4dbfb19341f7",
+                        "source_uuid": "1eda2b7d-afae-4b25-8fee-c3967030ca4f",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4496,44 +4141,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "OPS | PlayerInfo",
-                        "source_uuid": "8e0e9c14-1b40-491d-a37d-44e449b91050",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 7,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -4550,254 +4157,12 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503316482,
-            "name": "OPS | PlayerInfo",
-            "uuid": "8e0e9c14-1b40-491d-a37d-44e449b91050",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 8,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "PlayerTag",
-                        "source_uuid": "f3f910a4-e3c5-4708-96f9-5ee9ad63b90a",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 261.0,
-                            "y": 870.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "PlayerName",
-                        "source_uuid": "b44ef69c-fd2f-4590-b08d-423ff6832545",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 261.0,
-                            "y": 949.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "fix",
-                        "source_uuid": "a42c1ef8-7662-458e-a3bc-76214787f4c5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 760.0
-                        },
-                        "scale": {
-                            "x": 0.29583331942558289,
-                            "y": 0.29629629850387573
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 7,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "P1",
-                        "source_uuid": "d5e068c5-4a81-4812-a263-d0bb591854dd",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 760.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 5,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "id": "swipe_transition",
-                            "versioned_id": "swipe_transition",
-                            "name": "P1 Show Transition",
-                            "transition": {
-                                "swipe_in": true,
-                                "direction": "right"
-                            },
-                            "duration": 1000
-                        },
-                        "hide_transition": {
-                            "id": "swipe_transition",
-                            "versioned_id": "swipe_transition",
-                            "name": "P1 Hide Transition",
-                            "transition": {
-                                "direction": "left"
-                            },
-                            "duration": 1000
-                        },
-                        "private_settings": {
-                            "collapsed": false
-                        }
-                    },
-                    {
-                        "name": "Tank",
-                        "source_uuid": "852871b0-5c93-4218-b276-b34b9d91e6fb",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 58.0,
-                            "y": 855.0
-                        },
-                        "scale": {
-                            "x": 0.335999995470047,
-                            "y": 0.335999995470047
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 8,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": []
             },
@@ -4808,154 +4173,17 @@
         },
         {
             "prev_ver": 503316482,
-            "name": "Outside",
-            "uuid": "428fbf41-1afd-4f19-9ccf-5c30dcb51eb0",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "OPS | CENTER",
-                        "source_uuid": "1b9f0367-843e-44d6-8e59-4f3d59794184",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": -69.0,
-                            "y": -45.0
-                        },
-                        "scale": {
-                            "x": 1.0776041746139526,
-                            "y": 1.0777777433395386
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "INPLAY",
-                        "source_uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1398.0,
-                            "y": 23.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503316482,
-            "name": "OW2 Logo",
-            "uuid": "d55c373e-990d-4733-ab0f-0af125192514",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/deck/Downloads/Masthead_Overwatch2_Logo.webp"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503316482,
             "name": "PlayerName",
-            "uuid": "b44ef69c-fd2f-4590-b08d-423ff6832545",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "de4df3d4-26b3-4cb7-b49b-80571f799008",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "Player Name",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 48,
-                    "flags": 1
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -4978,16 +4206,16 @@
         {
             "prev_ver": 503316482,
             "name": "PlayerTag",
-            "uuid": "f3f910a4-e3c5-4708-96f9-5ee9ad63b90a",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "b1985471-4329-4c2a-bd48-d9ed30e64906",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "PlayerTag",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -5009,20 +4237,47 @@
         },
         {
             "prev_ver": 503316482,
-            "name": "RScore",
-            "uuid": "ed925173-d702-4e6e-84de-f439f77b6bd8",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "name": "Rocket League Logo",
+            "uuid": "8c773403-b584-4d74-993f-23c4ef3775b9",
+            "id": "image_source",
+            "versioned_id": "image_source",
             "settings": {
+                "file": "D:/Github/EsportsOBS/Assets/RL.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503316482,
+            "name": "RScore",
+            "uuid": "f7d52d31-7e71-4dbc-800e-6a4709fa426d",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "color1": 4288305693,
+                "color2": 4288305693,
                 "text": "0",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 36,
-                    "flags": 1
+                    "style": "Regular"
                 },
-                "color1": 4288305693,
-                "color2": 4288305693
+                "color": 4294944317
             },
             "mixers": 0,
             "sync": 0,
@@ -5044,7 +4299,7 @@
         {
             "prev_ver": 503316482,
             "name": "RScoreBlock",
-            "uuid": "cb5121a0-bdac-45e3-a0c7-7da02a52a7c7",
+            "uuid": "e152c429-6883-41d2-b2aa-e1f4fe5e35b8",
             "id": "color_source",
             "versioned_id": "color_source_v3",
             "settings": {
@@ -5072,16 +4327,16 @@
         {
             "prev_ver": 503316482,
             "name": "RTeam",
-            "uuid": "04b5824b-9972-4b32-acef-08d54ceecb3e",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "fccda60e-c01f-4232-a654-4ecb626fac2d",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 36,
-                    "flags": 1
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -5104,16 +4359,16 @@
         {
             "prev_ver": 503316482,
             "name": "Starting",
-            "uuid": "f45e5cfb-e2d8-4b28-bb71-3e3523328cdc",
+            "uuid": "8540fd86-a573-4e3f-9660-bc92ef29d447",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 8,
                 "custom_size": false,
+                "id_counter": 13,
                 "items": [
                     {
                         "name": "Waveform",
-                        "source_uuid": "487995d9-fea6-4e34-bbea-6786afd49705",
+                        "source_uuid": "8e483710-051a-401e-a46a-0d0f7bb718a6",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5151,7 +4406,7 @@
                     },
                     {
                         "name": "OPS | CENTER",
-                        "source_uuid": "1b9f0367-843e-44d6-8e59-4f3d59794184",
+                        "source_uuid": "73a17351-a47d-47b6-8431-bd4b1763656a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5189,7 +4444,7 @@
                     },
                     {
                         "name": "BlackOut",
-                        "source_uuid": "01cd210c-9f90-4660-8fe8-d30524d7a26c",
+                        "source_uuid": "b3f2edc7-52bf-4687-bc76-081c29c034b3",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5227,13 +4482,13 @@
                     },
                     {
                         "name": "StartingText",
-                        "source_uuid": "e73ad040-4f42-49fa-9847-055d2c6899f7",
+                        "source_uuid": "00be58b8-b9eb-4ac5-a9b1-b7276da0af85",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 676.5,
-                            "y": 694.0
+                            "x": 726.0,
+                            "y": 694.5
                         },
                         "scale": {
                             "x": 1.0,
@@ -5251,7 +4506,7 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 3,
-                        "group_item_backup": true,
+                        "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
                         "blend_type": "normal",
@@ -5265,17 +4520,17 @@
                     },
                     {
                         "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+                        "source_uuid": "76795541-add3-4340-b446-43bcbd22b4fd",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 560.0,
-                            "y": 313.0
+                            "x": 661.0,
+                            "y": 296.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.25174826383590698,
+                            "y": 0.25215518474578857
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -5302,18 +4557,18 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "OW2 Logo",
-                        "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
+                        "name": "Rocket League Logo",
+                        "source_uuid": "8c773403-b584-4d74-993f-23c4ef3775b9",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 624.0,
-                            "y": 589.0
+                            "x": 790.5,
+                            "y": 546.5
                         },
                         "scale": {
-                            "x": 0.24181360006332397,
-                            "y": 0.24161073565483093
+                            "x": 0.14124999940395355,
+                            "y": 0.14154200255870819
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -5340,14 +4595,14 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "StartingGroup",
-                        "source_uuid": "97410596-9347-4a07-96e2-4bfd9f0819da",
+                        "name": "LogoGroup",
+                        "source_uuid": "afa69f17-e8bd-46e7-ae7b-446b2efbbcce",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 560.0,
-                            "y": 313.0
+                            "x": 661.0,
+                            "y": 296.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -5376,7 +4631,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     }
                 ]
@@ -5400,6 +4655,8 @@
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": []
             },
@@ -5411,16 +4668,16 @@
         {
             "prev_ver": 503316482,
             "name": "StartingText",
-            "uuid": "e73ad040-4f42-49fa-9847-055d2c6899f7",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
+            "uuid": "00be58b8-b9eb-4ac5-a9b1-b7276da0af85",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "text": "STARTING SOON",
                 "font": {
                     "face": "Roboto Black",
-                    "style": "Regular",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -5442,40 +4699,14 @@
         },
         {
             "prev_ver": 503316482,
-            "name": "Tank",
-            "uuid": "852871b0-5c93-4218-b276-b34b9d91e6fb",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/deck/Documents/Varsity/Tank.png"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503316482,
             "name": "Waveform",
-            "uuid": "487995d9-fea6-4e34-bbea-6786afd49705",
+            "uuid": "8e483710-051a-401e-a46a-0d0f7bb718a6",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "hw_decode": true,
                 "close_when_inactive": true,
-                "local_file": "/home/deck/Documents/Varsity/Waveform.mp4",
+                "hw_decode": true,
+                "local_file": "C:/Users/micro/OneDrive/Documents/GitHub/OBS/Assets/Waveform.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -5502,12 +4733,14 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {},
+            "private_settings": {
+                "mixer_hidden": true
+            },
             "filters": [
                 {
                     "prev_ver": 503316482,
                     "name": "Color Correction",
-                    "uuid": "44cf4651-a698-4655-968c-aa770f5b678b",
+                    "uuid": "45888477-569f-4f19-b5e9-ca8d89c89866",
                     "id": "color_filter",
                     "versioned_id": "color_filter_v2",
                     "settings": {
@@ -5515,7 +4748,7 @@
                         "contrast": 0.19,
                         "brightness": -0.0521,
                         "hue_shift": -118.84999999999999,
-                        "opacity": 1.0,
+                        "opacity": 1,
                         "color_multiply": 4294901760
                     },
                     "mixers": 0,

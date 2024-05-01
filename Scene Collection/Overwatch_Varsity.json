@@ -799,48 +799,10 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 800,
-                "cy": 342,
+                "cx": 620,
+                "cy": 319,
                 "id_counter": 0,
                 "items": [
-                    {
-                        "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
                     {
                         "name": "OW2 Logo",
                         "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
@@ -848,8 +810,8 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 90.47857666015625,
-                            "y": 276.0
+                            "x": 0.0,
+                            "y": 252.5
                         },
                         "scale": {
                             "x": 0.24181360006332397,
@@ -878,6 +840,44 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "Esports",
+                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 49.02142333984375,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.21431510150432587,
+                            "y": 0.21443966031074524
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -893,10 +893,10 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": []
+                "libobs.hide_scene_item.8": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1282,52 +1282,14 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 560.0,
-                            "y": 313.5
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "OW2 Logo",
                         "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 650.47857666015625,
-                            "y": 589.5
+                            "x": 650.0,
+                            "y": 566.0
                         },
                         "scale": {
                             "x": 0.24181360006332397,
@@ -1358,13 +1320,51 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Esports",
+                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 699.02142333984375,
+                            "y": 313.5
+                        },
+                        "scale": {
+                            "x": 0.21431510150432587,
+                            "y": 0.21443966031074524
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "LogoGroup",
                         "source_uuid": "97410596-9347-4a07-96e2-4bfd9f0819da",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 560.0,
+                            "x": 650.0,
                             "y": 313.5
                         },
                         "scale": {
@@ -1522,7 +1522,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 8,
+                "id_counter": 9,
                 "items": [
                     {
                         "name": "OPS | BOOTH",
@@ -1563,56 +1563,18 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "OPS | CENTER",
-                        "source_uuid": "1b9f0367-843e-44d6-8e59-4f3d59794184",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 35.0,
-                            "y": 620.0
-                        },
-                        "scale": {
-                            "x": 0.22291663289070129,
-                            "y": 0.22314813733100891
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 17,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "INPLAY",
                         "source_uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 42.390647888183594,
-                            "y": 847.578125
+                            "x": 50.0,
+                            "y": 862.5
                         },
                         "scale": {
-                            "x": 0.79687362909317017,
-                            "y": 0.79768788814544678
+                            "x": 0.74800002574920654,
+                            "y": 0.74800002574920654
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1625,8 +1587,8 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": true,
+                        "id": 9,
+                        "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
                         "blend_type": "normal",
@@ -1635,100 +1597,6 @@
                         },
                         "hide_transition": {
                             "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "CenterCam Group",
-                        "source_uuid": "da7251df-eaff-4a45-96e7-45009e2a20ed",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 35.0,
-                            "y": 620.0
-                        },
-                        "scale": {
-                            "x": 0.796875,
-                            "y": 0.79768788814544678
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 7,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "id": "fade_transition",
-                            "versioned_id": "fade_transition",
-                            "name": "CenterCam Group Show Transition",
-                            "transition": {},
-                            "duration": 3000
-                        },
-                        "hide_transition": {
-                            "id": "fade_transition",
-                            "versioned_id": "fade_transition",
-                            "name": "CenterCam Group Hide Transition",
-                            "transition": {},
-                            "duration": 3000
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        }
-                    },
-                    {
-                        "name": "INPLAY",
-                        "source_uuid": "9948bee7-148d-4c4a-a9cc-7ebf7812d0cb",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 42.0,
-                            "y": 848.0
-                        },
-                        "scale": {
-                            "x": 0.79600000381469727,
-                            "y": 0.79600000381469727
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 8,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "id": "fade_transition",
-                            "versioned_id": "fade_transition",
-                            "name": "INPLAY Show Transition",
-                            "transition": {},
-                            "duration": 3000
-                        },
-                        "hide_transition": {
-                            "id": "fade_transition",
-                            "versioned_id": "fade_transition",
-                            "name": "INPLAY Hide Transition",
-                            "transition": {},
-                            "duration": 3000
                         },
                         "private_settings": {}
                     }
@@ -1749,10 +1617,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": [],
-                "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": []
+                "libobs.show_scene_item.9": [],
+                "libobs.hide_scene_item.9": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1893,16 +1759,16 @@
             "id": "droidcam_obs",
             "versioned_id": "droidcam_obs",
             "settings": {
-                "activated": true,
                 "cur_dev_id": "dev_id_wifi",
                 "cur_dev_ip": "100.72.4.122",
                 "cur_dev_type": 1,
-                "deactivate_wns": true,
                 "device_list": "dev_id_wifi",
                 "remote_url": "",
                 "resolution": 2,
                 "video_format": 0,
-                "wifi_ip": "100.72.4.122"
+                "wifi_ip": "100.72.4.122",
+                "activated": true,
+                "deactivate_wns": true
             },
             "mixers": 255,
             "sync": 0,
@@ -1917,9 +1783,9 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.mute": [],
+                "libobs.unmute": [],
                 "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
+                "libobs.push-to-talk": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2157,52 +2023,14 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 560.0,
-                            "y": 313.5
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "OW2 Logo",
                         "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 650.47857666015625,
-                            "y": 589.5
+                            "x": 650.0,
+                            "y": 566.0
                         },
                         "scale": {
                             "x": 0.24181360006332397,
@@ -2233,13 +2061,51 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Esports",
+                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 699.02142333984375,
+                            "y": 313.5
+                        },
+                        "scale": {
+                            "x": 0.21431510150432587,
+                            "y": 0.21443966031074524
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "LogoGroup",
                         "source_uuid": "97410596-9347-4a07-96e2-4bfd9f0819da",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 560.0,
+                            "x": 650.0,
                             "y": 313.5
                         },
                         "scale": {
@@ -2342,7 +2208,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "G:/Assets/esports.png"
+                "file": "D:/Github/EsportsOBS/Assets/esports.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3493,12 +3359,12 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1381.0,
-                            "y": 415.0
+                            "x": 1507.0,
+                            "y": 446.5
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.74800002574920654,
+                            "y": 0.74800002574920654
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -3558,9 +3424,9 @@
             "settings": {
                 "files": [
                     {
-                        "value": "G:/Assets/esports.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "D:/Github/EsportsOBS/Assets/esports.png"
                     }
                 ],
                 "use_custom_size": "500x250"
@@ -4008,12 +3874,12 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 661.0,
-                            "y": 351.0
+                            "x": 733.0,
+                            "y": 347.0
                         },
                         "scale": {
-                            "x": 0.74750000238418579,
-                            "y": 0.74800002574920654
+                            "x": 0.20937885344028473,
+                            "y": 0.20905172824859619
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -4241,46 +4107,8 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 7,
+                "id_counter": 8,
                 "items": [
-                    {
-                        "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 661.0,
-                            "y": 351.0
-                        },
-                        "scale": {
-                            "x": 0.74750000238418579,
-                            "y": 0.74800002574920654
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 4,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
                     {
                         "name": "NoSignal",
                         "source_uuid": "8103b464-f378-4a7e-8280-55609862b610",
@@ -4358,6 +4186,44 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Esports",
+                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 705.5,
+                            "y": 347.0
+                        },
+                        "scale": {
+                            "x": 0.20937885344028473,
+                            "y": 0.20905172824859619
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Elgato",
                         "source_uuid": "24dc9276-230f-4fda-8556-4dbfb19341f7",
                         "visible": true,
@@ -4410,14 +4276,14 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
                 "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": []
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.8": [],
+                "libobs.hide_scene_item.8": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4432,7 +4298,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 2,
+                "id_counter": 3,
                 "items": [
                     {
                         "name": "OPS | CENTER",
@@ -4479,12 +4345,12 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1398.0,
-                            "y": 23.0
+                            "x": 1530.0,
+                            "y": 24.5
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.74800002574920654,
+                            "y": 0.74800002574920654
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -4497,7 +4363,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 2,
+                        "id": 3,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -4527,8 +4393,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4542,7 +4408,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "G:/Assets/OW2.png"
+                "file": "D:/Github/EsportsOBS/Assets/OW2.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -4728,7 +4594,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 13,
+                "id_counter": 14,
                 "items": [
                     {
                         "name": "Waveform",
@@ -4845,122 +4711,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Esports",
-                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 560.0,
-                            "y": 313.5
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "OW2 Logo",
-                        "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 650.47857666015625,
-                            "y": 589.5
-                        },
-                        "scale": {
-                            "x": 0.24181360006332397,
-                            "y": 0.24161073565483093
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 8,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "LogoGroup",
-                        "source_uuid": "97410596-9347-4a07-96e2-4bfd9f0819da",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 560.0,
-                            "y": 313.5
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 4,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "collapsed": false
-                        }
-                    },
-                    {
                         "name": "StartingText",
                         "source_uuid": "e73ad040-4f42-49fa-9847-055d2c6899f7",
                         "visible": true,
@@ -4997,6 +4747,122 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "OW2 Logo",
+                        "source_uuid": "d55c373e-990d-4733-ab0f-0af125192514",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 650.0,
+                            "y": 566.0
+                        },
+                        "scale": {
+                            "x": 0.24181360006332397,
+                            "y": 0.24161073565483093
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Esports",
+                        "source_uuid": "50971872-28b2-4379-b64d-0031373d2da5",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 699.02142333984375,
+                            "y": 313.5
+                        },
+                        "scale": {
+                            "x": 0.21431510150432587,
+                            "y": 0.21443966031074524
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "LogoGroup",
+                        "source_uuid": "97410596-9347-4a07-96e2-4bfd9f0819da",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 650.0,
+                            "y": 313.5
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 14,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
                     }
                 ]
             },
@@ -5019,10 +4885,10 @@
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": []
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
